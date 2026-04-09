@@ -6,7 +6,7 @@ async function GenerateImage(prompt) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        apikey: import.meta.env.VITE_API_KEY,
+        apikey: import.meta.env.VITE_HORDE_API_KEY,
       },
       body: JSON.stringify({
         prompt: prompt,
